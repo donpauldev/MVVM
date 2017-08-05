@@ -1,3 +1,3 @@
 # MVVM
 
-## Simple MVVM and MVC project structure.
+*Simple MVVM and MVC project structure.*
