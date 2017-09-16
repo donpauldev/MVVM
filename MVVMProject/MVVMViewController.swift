@@ -20,10 +20,10 @@ class MVVMViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        loadViews()
+        setupView()
     }
     
-    func loadViews() {
+    func setupView() {
         name.attributedText = dogViewModel.name
         breed.text = dogViewModel.breed
         color.text = dogViewModel.color
