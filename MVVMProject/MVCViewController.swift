@@ -20,10 +20,10 @@ class MVCViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        loadViews()
+        setupView()
     }
     
-    func loadViews() {
+    func setupView() {
         name.attributedText = getNameAttributedString()
         breed.text = dog.breed
         color.text = dog.color
